@@ -115,7 +115,7 @@ h3 {
 
 p {
   margin: .4em 0 .8em;
-  max-width: 72ch;
+  max-width: 70ch;
 }
 
 button {
@@ -212,7 +212,7 @@ section.view[hidden] {
 }
 
 .lead {
-  font-size: 1.08rem;
+  font-size: 20px;
   color: var(--surface-alt);
 }
 
@@ -872,7 +872,6 @@ tr:hover td {
 }
 
 .step p {
-  font-size: .88rem;
   margin: 6px 0 0;
   color: var (--muted);
 }
