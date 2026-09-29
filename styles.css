@@ -134,6 +134,7 @@ button {
   max-width: 1180px;
   margin: 0 auto;
   padding: 0 20px;
+  font-size: medium;
 }
 
 header.top {
@@ -203,7 +204,7 @@ nav.tabs button[aria-selected="true"] .n {
 
 main.wrap {
   padding-top: 32px;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 
 section.view[hidden] {
@@ -212,7 +213,7 @@ section.view[hidden] {
 
 .lead {
   font-size: 1.08rem;
-  color: var(--muted);
+  color: var(--surface-alt);
 }
 
 .panel {
@@ -237,11 +238,12 @@ section.view[hidden] {
 }
 
 .stack>*+* {
-  margin-top: 24px;
+  margin-top: 10px;
+  font-size: 17px;
 }
 
 .muted {
-  color: var(--muted);
+  color: var(--surface-alt);
 }
 
 .small {
@@ -303,6 +305,8 @@ section.view[hidden] {
   width: 34px;
   height: 74px;
   transition: opacity .5s, transform .5s;
+  background: aliceblue;
+  border-radius: 20px;
 }
 
 .person svg {
@@ -645,8 +649,9 @@ td {
 th {
   font-weight: 600;
   font-size: .84rem;
-  color: var(--muted);
+  color: var(--ink);
   background: var(--surface-alt);
+  text-transform: capitalize;
 }
 
 tr:hover td {
@@ -869,7 +874,7 @@ tr:hover td {
 .step p {
   font-size: .88rem;
   margin: 6px 0 0;
-  color: var(--muted);
+  color: var (--muted);
 }
 
 .pwrap {
