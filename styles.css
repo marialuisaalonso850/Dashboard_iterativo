@@ -243,11 +243,13 @@ section.view[hidden] {
 }
 
 .muted {
-  color: var(--surface-alt);
+  color: var(--ink);
 }
 
 .small {
-  font-size: .88rem;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .tag {
